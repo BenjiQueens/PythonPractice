@@ -1,0 +1,17 @@
+#Author: Benji Christie
+#Date: June 2018
+#Practicing Python using practicepython.org
+#Problem 3
+
+#Problem: Create a list and print out all of the elements that are less than 5
+#Example list provided:
+
+a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 17, 4, 3, 2, 2 , 3, 4]
+temp = []
+for i in range(len(a)):
+	if a[i] < 5 :
+		temp.append(a[i])
+print(temp)	
+
+#write it in 1 line
+print([a[i] for i in range(len(a)) if a[i]<5])
