@@ -1,0 +1,16 @@
+#Author: Benji Christie
+#Date: June 2018
+#Practicing Python using practicepython.org
+#Problem 1
+
+print("Please enter your first name and your Age")
+
+#creating an input that is split by the space between name and age
+Name_Age = input().split(" ")
+
+#Years until 100
+YearsTilHundo = 100- int(Name_Age[1])
+YearOfEvent = 2018 + YearsTilHundo
+
+#Need to put everything to with typecasting)
+print("Hi "+ Name_Age[0] + ", you will be 100 years old in " + str(YearsTilHundo) + " years, in the year " + str(YearOfEvent) )
