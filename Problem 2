@@ -1,0 +1,27 @@
+#Author: Benji Christie
+#Date: June 2018
+#Practicing Python using practicepython.org
+#Problem 2
+
+#case 1
+print("Please Enter a number")
+UserInput = int(input())
+if UserInput % 2 == 0:
+	print("The number is even")
+else:
+	print("The number is odd")
+
+#case 2
+if UserInput % 4 == 0:
+	print("The number is a multiple of 4")
+
+#case 3
+print("Please enter 2 numbers now")
+InputTwo = input().split(" ")
+num = int(InputTwo[0])
+check = int(InputTwo[1])
+
+if num%check == 0:
+	print("This is chill")
+else:
+	print("Nah")
